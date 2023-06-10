@@ -1,0 +1,142 @@
+.conteiner {
+  margin: 0px 105px;
+}
+.header {
+  background-image: url(img/bg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: 0px;
+}
+.header-line {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navtext {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.navtext:hover {
+  color: #f09e07;
+  transition: color 0.3s linear;
+}
+
+.cart {
+  border-right: 1px solid #ffffff;
+  padding-right: 10px;
+}
+
+.numb {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.phoneblock {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  color: #fff;
+  background: #ff7400;
+  text-decoration: none;
+  padding: 12px 19px;
+}
+.btn:hover {
+  background-color: #1fc1cd;
+  transition: background-color 0.2s linear;
+}
+.header-title {
+  color: #d67e35;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  margin-top: 222px;
+  margin-bottom: 12px;
+}
+.header-subtitle {
+  font-size: 80px;
+}
+.menu {
+  background-color: #ff7400;
+  padding: 14px 28px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.menu:hover {
+  background-color: #1fc1cd;
+  transition: 0.3s linear;
+}
+.header-sup {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Tinos", serif;
+}
+.header-sup::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 160px;
+  left: 350px;
+}
+.header-sup::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 160px;
+  left: 70px;
+}
+
+.header-down {
+  color: #ffffff;
+  position: relative;
+}
+.phonetext {
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.numb:hover {
+  color: #cb13b2;
+  transition: color 0.3s linear;
+}
+
+.card{
+    background-color: #cac7c7;
+    width: 33%;
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+}
+.firstcardtitle{
+    display: flex;
+    justify-content: center;
+}
+.cardholder{
+    display: flex;
+    justify-content:space-between;
+}
+
+.firstcardtext{
+    display: flex;
+    justify-content: center;
+
+}
