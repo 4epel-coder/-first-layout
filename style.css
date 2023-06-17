@@ -3,9 +3,9 @@
 }
 .header {
   background-image: url(img/bg.png);
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 body {
   margin: 0px;
@@ -118,25 +118,342 @@ body {
   transition: color 0.3s linear;
 }
 
-.card{
-    background-color: #cac7c7;
-    width: 33%;
+.card {
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  width: 349px;
+  margin-right: 31px;
+  background-color: #fff;
+  margin-top: -80px;
+  padding: 0px 10px;
 }
-.cardimg{
-    display: flex;
-    justify-content: center;
+.cardimg {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
 }
-.firstcardtitle{
-    display: flex;
-    justify-content: center;
+.firstcardtitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
 }
-.cardholder{
-    display: flex;
-    justify-content:space-between;
+.cardholder {
+  display: flex;
+  justify-content: center;
+}
+.firstcardtitle span {
+  color: #bc9060;
 }
 
-.firstcardtext{
-    display: flex;
-    justify-content: center;
+.firstcardtext {
+  font-family: "Tinos", serif;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  color: #656363;
+}
+.history-title span {
+  color: #bc9060;
+}
+.history-title {
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  width: 444px;
+  margin-bottom: 21px;
+}
+.history {
+  padding-top: 166px;
+  padding-left: 61px;
+}
 
+.history-text {
+  color: #656363;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 444px;
+  text-align: center;
+}
+.history-number {
+  display: flex;
+  width: 444px;
+  justify-content: center;
+  padding-top: 39px;
+  padding-left: 51px;
+}
+.number-item {
+  color: #bc9060;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 30px;
+}
+.history-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number-item span {
+  color: #000000;
+  font-size: 20px;
+  display: block;
+}
+.history-img {
+  position: relative;
+}
+.img1 {
+  position: absolute;
+  z-index: 999;
+  top: 109px;
+  left: -709px;
+}
+.img2 {
+  position: absolute;
+  top: 73px;
+  left: -539px;
+}
+.img3 {
+  position: absolute;
+  top: 282px;
+  left: -423px;
+}
+.history-holder {
+  margin-bottom: 200px;
+}
+.blackblock {
+  background-image: url(img/blackblock.png);
+  padding: 80px 0px;
+  padding-left: 61px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blackblock:after {
+  content: "";
+  position: absolute;
+  top: 1780px;
+  left: 0;
+  right: 0;
+  bottom: -1226px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.block-holder {
+  position: relative;
+  z-index: 3;
+}
+.lefttitle {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  height: 120px;
+  font-size: 52px;
+  color: #d67e34;
+  margin-bottom: 20px;
+}
+.lefttext {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.block-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightbtn {
+  color: #fff;
+  background: #ff7400;
+  text-decoration: none;
+  padding: 12px 19px;
+  font-weight: 700;
+}
+.dishestitle span {
+  color: #d67e34;
+}
+.dishestitle {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 132px;
+  margin-bottom: 139px;
+}
+.burgers {
+  display: flex;
+  justify-content: center;
+}
+.burgeritem {
+  display: flex;
+  align-items: center;
+}
+.burgerimg {
+  margin: 0px 20px;
+  margin-bottom: 27px;
+}
+.biregertext {
+  padding-left: 20px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.menus {
+  background-image: url(img/bar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+.menutittle {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 54px;
+  padding-top: 100px;
+  padding-bottom: 138px;
+  text-align: center;
+  color: #fff;
+}
+.menu-item {
+  background-color: #fff;
+  text-align: center;
+  width: 350px;
+  height: 360px;
+  padding-top: 50px;
+  padding-bottom: 39px;
+  margin-right: 30px;
+}
+
+.tittletextimg {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 26px;
+  padding-top: 16px;
+}
+.textimg {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 17px;
+}
+.menubtn {
+  color: #fff;
+  background: #ff7400;
+  text-decoration: none;
+  padding: 14px 67px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px #00000040;
+}
+.menuprice {
+  position: absolute;
+  bottom: 0;
+  right: 62px;
+}
+.menubtn:hover {
+  background-color: #c79d07;
+  transition: 0.3s linear;
+}
+.menubutton {
+  margin-top: 20px;
+}
+.menuimages {
+  position: relative;
+}
+.price420 {
+  position: absolute;
+  bottom: 30px;
+  right: 84px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  font-family: cursive;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+.coment {
+  background-color: #e5e5e5;
+  padding-top: 104px;
+  text-align: center;
+}
+.coment-text {
+  font-size: 20px;
+  font-family: italic;
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  font-family: cursive;
+}
+.coment-img {
+  padding-top: 20px;
+}
+.coment-user {
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Tinos", italic;
+}
+.coment-name {
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Tinos", Arial, Helvetica, sans-serif;
+  padding-bottom: 140px;
+}
+.galety-tittle {
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.galety-tittle span {
+  color: #d67e35;
+}
+.galery-content {
+  display: flex;
+  justify-content: center;
+}
+.left-content {
+  margin-right: 20px;
+}
+.galery-down {
+  display: flex;
+  justify-content: space-between;
+}
+.galery-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.cocks-tittle {
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.cocks-tittle span {
+  color: #d67e35;
+}
+.cocks-img {
+  display: flex;
+  justify-content: center;
+}
+.cock-img {
+  padding-right: 35px;
+  padding-bottom: 100px;
+}
+.footer {
+  background-image: url(img/last.png);
+  color: #fff;
+  padding: 150px 0;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
 }
